@@ -113,7 +113,7 @@ public class GradeStatistics {
         int maxStat = getMaxStat(stats);
 
         System.out.println("\nScore Distribution:");
-        String bar = "  #####   ";
+        String bar = "  #####  ";
         String noBar = "        ";
 
         for (int i = maxStat; i > 0; i--) {

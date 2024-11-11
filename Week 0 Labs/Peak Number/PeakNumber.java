@@ -25,7 +25,7 @@ public class PeakNumber {
             }
 
             if (thePeakNumber) {
-                System.out.println("Special element at position (" + (i + 1) + ", " + (maxIndex + 1) + ") = " + matrix[i][maxIndex]);
+                System.out.println("Peak Number falls at position (" + (i + 1) + ", " + (maxIndex + 1) + ") = " + matrix[i][maxIndex]);
                 return;
             }
         }
